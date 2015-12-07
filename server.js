@@ -104,7 +104,7 @@ app.delete('/api/todos/:id', function destroy(req, res) {
  * SERVER *
  **********/
 
-// listen on port 3000
-app.listen(3000, function() {
-  console.log('server running on localhost://3000');
+// listen on port 5000
+app.listen(5000, function() {
+  console.log('server running on localhost://5000');
 });
